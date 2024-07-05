@@ -16,6 +16,7 @@
     include('production.php');
     include('Trustees.php');
     include('support.php');
+    include('signup.php');
     ?>
 
     <?php

@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: black;
-    padding: 20px;
+    padding: 30px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -24,9 +24,20 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
-.logo img {
-    height: 50px;
+.logo {
+    position: relative;
+    
+}
+.logo .img1 {
+    height: 70px;
+    position: absolute;
+    top: -10px;
+}
+.logo .img2 {
+    height: 40px;
+    position: absolute;
+    left: 70px;
+    top: -10px;
 }
 
 .nav-links {
@@ -452,6 +463,83 @@ nav {
             color: #666;
             font-size: 14px;
             margin: 0;
+        }
+        /*  signup section */
+
+        .instagram-integration {
+            padding: 20px;
+        }
+        
+        .instagram-feed {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: black;
+            padding: 10px;
+        }
+        
+        .instagram-feed .post img {
+            width: 160px;
+            height: 250px;
+            object-fit: cover;
+            
+        }
+        
+        .signup-option {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            line-height: 2em;
+            padding: 30px;
+            margin-top: 10px;
+            display: flex;
+            gap: 50px;
+        }
+        .signup-option h1{
+            color:black;
+        }
+        .signup-text{
+            padding: 20px;
+        }
+        
+        .signup-option form {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .signup-option form input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        .signup-option form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff5722;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .signup-option form button:hover {
+            background-color: #e64a19;
+        }
+        
+        @media (max-width: 600px) {
+            .instagram-feed .post img {
+                width: 80px;
+                height: 80px;
+            }
+        
+            .signup-option form input {
+                width: 80%;
+            }
         }
         
         
