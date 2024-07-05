@@ -1,5 +1,5 @@
 
-<div class="instagram-integration">
+    <div class="instagram-integration">
         <h1>Instagram integration</h1>
         <div class="instagram-feed">
             <!-- Instagram posts go here -->
