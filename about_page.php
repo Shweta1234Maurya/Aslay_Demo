@@ -12,7 +12,7 @@
 <body>
     <header class="main-banner">
         <img src="images/_DSC1069.JPG" alt="Main Banner">
-        <div class="banner-text">
+        <div class="banner-text" id="banner-txt">
             <h1>StoneLion Puppet Theatre</h1>
             <a href="#donate" class="donate-button">Help Feed the Puppets - Donate through PayPal here!</a>
         </div>
