@@ -12,6 +12,7 @@
     <?php
     // Include header
     include('header.php');
+    include('home.php');
     include('about.php');
     include('production.php');
     include('Trustees.php');

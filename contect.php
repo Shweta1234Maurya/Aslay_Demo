@@ -1,89 +1,19 @@
+<?php
+    include('header.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .contact-form {
-            flex: 1;
-            min-width: 300px;
-            margin-right: 20px;
-            padding:30px;
-            background-color:#f5e8cf;
-        }
-        .contact-form h1 {
-            margin-bottom: 20px;
-        }
-        .contact-form input, .contact-form select, .contact-form textarea {
-            width: calc(40% - 10px);
-            margin: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        .contact-form textarea {
-            width: calc(100% - 22px);
-            height: 100px;
-            resize: vertical;
-        }
-        .contact-form .full-width {
-            width: calc(100% - 22px);
-        }
-        .contact-form button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #ff5722;
-            color: white;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        .contact-info {
-            flex: 1;
-            min-width: 300px;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
-        .contact-info a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        @media (max-width: 768px) {
-            .contact-form input, .contact-form select {
-                width: calc(100% - 22px);
-            }
-            .container {
-                flex-direction: column;
-            }
-            .contact-form, .contact-info {
-                margin: 0;
-            }
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<h1>Write to Us</h1>
     <div class="container">
+        <h1>Write to Us</h1>
+    <div class="form-container">
+       
         <div class="contact-form">
             <form action="contact_form.php" method="POST">
                 <input type="text" name="name" placeholder="Name" required>
@@ -119,5 +49,9 @@
                Gurugram, Haryana – 122018</p>
         </div>
     </div>
+    </div>
+    <?php
+    include('footer.php');
+?>
 </body>
 </html>

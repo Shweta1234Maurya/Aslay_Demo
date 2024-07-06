@@ -13,10 +13,14 @@
                 </ul>
             </div>
             <div class="footer-section contact">
-                <h2>Contact Us</h2>
-                <p>➡️ Norwich Puppet Theatre, St James, Whitefriars, Norwich NR3 1TN</p>
-                <p>📧 info@puppettheatre.co.uk</p>
-                <p>📞</p>
+                <ul>
+                    <li>
+                    <a href="contect.php"><h2>Contact Us</h2></a>
+                    </li>
+                    <li><a href=""><p>➡️ Norwich Puppet Theatre, St James, Whitefriars, Norwich NR3 1TN</p></a></li>
+                    <li><a href=""><p>📧 info@puppettheatre.co.uk</p></a></li>
+                    <li><a href=""><p>📞</p></a></li>
+                </ul>
                 
             </div>
         </div>

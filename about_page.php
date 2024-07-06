@@ -1,81 +1,13 @@
-
+<?php
+    include('header.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StoneLion Puppet Theatre</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-.main-banner {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-}
-
-.main-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-}
-
-.banner-text h1 {
-    font-size: 36px;
-    margin: 0;
-}
-
-.banner-text .donate-button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #32b296;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 20px;
-}
-
-.container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
-    background-color: white;
-}
-
-section {
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-}
-section .about-content{
-    margin: 20px;
-}
-section h2 {
-    font-size: 24px;
-    margin-bottom: 
-}
-.container img{
-    height: 250px;
-    width:300px;
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header class="main-banner">
@@ -86,7 +18,7 @@ section h2 {
         </div>
     </header>
     
-    <div class="container">
+    <div class="about-container">
         <!-- Sections -->
         <section id="in-schools">
             <div class="about-content">
