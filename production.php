@@ -70,7 +70,7 @@
                     <p>13 Sep 2024 - 15 Sep 2024</p>
                 </div>
             </div>
-            <div class="card" data-category="current">
+            <div class="card" data-category="past">
                 <img src="https://teamworkarts.com/uploads_teamworkarts/festival/1719319199-jlf-seattle.png" alt="JLF USA Seattle">
                 <div class="card-text">
                     <h3>JLF USA Seattle</h3>

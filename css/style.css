@@ -68,22 +68,29 @@ nav {
 }
 
 .nav-links .cta:hover {
-    background-color: #d5006b;
+    background-color:white;
+    
 }
 /* Responsive Styles */
 @media screen and (max-width: 900px) {
     .nav-links {
-        display: none;
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         position: absolute;
-        left: 0;
+        right: 0;
         top:0;
-        background: #846e79;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 50px 0;
+       
     }
 
     .nav-links li {
-        margin: 10px 100px;
+        margin: 10px 40px;
+        
+    }
+    .nav-links a.active,
+    .nav-links a:hover {
+    color: #e6007e;
     }
 
     .burger {
@@ -956,12 +963,12 @@ nav {
             flex: 1;
             min-width: 300px;
             margin-right: 20px;
-            padding:10px;
+            padding:20px;
             background-color:#f5e8cf;
             text-align: center;
         }
-        .contact-form h1 {
-            margin-bottom: 20px;
+        .contectus h1 {
+            padding-top: 100px;
         }
         .contact-form input, .contact-form select, .contact-form textarea {
             width: calc(45% - 10px);

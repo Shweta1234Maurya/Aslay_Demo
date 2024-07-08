@@ -6,7 +6,7 @@
                 <img class="img2" src="https://static.wixstatic.com/media/7e5674_e2fb7105826b4adc861b39c58c8c3545~mv2.png/v1/fill/w_430,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2_edited.png" alt="Logo">
             </div>
             <ul class="nav-links">
-                <li><a href="#" class="active">Home</a></li>
+                <li><a href="index.php" class="active">Home</a></li>
                 <li><a href="about_page.php">About</a></li>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Careers</a></li>

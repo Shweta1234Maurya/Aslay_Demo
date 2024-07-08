@@ -10,10 +10,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Write to Us</h1>
-    <div class="form-container">
-       
+    <div class="container contectus">
+    <h1>Write to Us</h1>
+    <div class="form-container">  
         <div class="contact-form">
             <form action="contact_form.php" method="POST">
                 <input type="text" name="name" placeholder="Name" required>
@@ -50,6 +49,7 @@
         </div>
     </div>
     </div>
+    <script src="js/script.js"></script>
     <?php
     include('footer.php');
 ?>
