@@ -8,7 +8,7 @@
                 <a href="about_page.php" class="read-more">Read more</a>
             </div>
             <div class="image image-1">
-                <img src="images/DSC07657.JPG" alt="Ishara Festival, any prominent performance photo">
+                <img src="images/DSC07657.JPG" alt="Ishara Festival, any prominent performance photo.">
                 <p>Image of IShara festival, any prominent performance photo</p>
             </div>
         </div>
