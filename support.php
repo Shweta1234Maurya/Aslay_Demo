@@ -5,11 +5,12 @@
         <?php
         // Example supporter data, this can be fetched from a database
         $supporters = [
-            ["image" => "images/logos/supporter1.png", "name" => "Arts Council England"],
+           
             ["image" => "images/logos/supporter2.png", "name" => "Norwich City Council"],
             ["image" => "images/logos/supporter3.png", "name" => "Norfolk County Council"],
             ["image" => "images/logos/supporter4.png", "name" => "Ashtons Legal"],
             ["image" => "images/logos/supporter5.webp", "name" => "Supporter 5"],
+            
         ];
 
         // Generate supporter items

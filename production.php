@@ -1,6 +1,7 @@
 <div>
-    <h1>Production</h1>
     <div class="carousel-container">
+    <h1>Production</h1>
+
         <h3>Upcoming shows at our venues</h3>
         <div class="carousel" id="carousel">
             <?php
@@ -9,6 +10,7 @@
                 ["title" => "The Curious Rat", "description" => "A big adventure for a small city rat", "image" => "images/A Flowering Tree122.jpg", "date" => "17 May–21 July 2024", "details" => "The Curious Rat tells the story of Lucien, a lonely city rat who watches the pigeons from his home under Waterloo Bridge and wishes he could..."],
                 ["title" => "Prince Charming", "description" => "It's a lot of pressure being Prince Charming", "image" => "images/DSC00167.JPG", "date" => "18 May–27 July 2024", "details" => "There’s all those dragons to fight and kingdoms to save, not to mention being charming all the time. It's enough to make anyone a little worried..."],
                 ["title" => "The Curious Rat", "description" => "A big adventure for a small city rat", "image" => "images/UConn028.jpg", "date" => "17 May–21 July 2024", "details" => "The Curious Rat tells the story of Lucien, a lonely city rat who watches the pigeons from his home under Waterloo Bridge and wishes he could..."],
+                ["title" => "Prince Charming", "description" => "It's a lot of pressure being Prince Charming", "image" => "images/DSC07657.JPG", "date" => "18 May–27 July 2024", "details" => "There’s all those dragons to fight and kingdoms to save, not to mention being charming all the time. It's enough to make anyone a little worried..."],
                 ["title" => "Prince Charming", "description" => "It's a lot of pressure being Prince Charming", "image" => "images/DSC07657.JPG", "date" => "18 May–27 July 2024", "details" => "There’s all those dragons to fight and kingdoms to save, not to mention being charming all the time. It's enough to make anyone a little worried..."],
                 ["title" => "Prince Charming", "description" => "It's a lot of pressure being Prince Charming", "image" => "images/DSC00167.JPG", "date" => "18 May–27 July 2024", "details" => "There’s all those dragons to fight and kingdoms to save, not to mention being charming all the time. It's enough to make anyone a little worried..."],
                 ["title" => "Prince Charming", "description" => "It's a lot of pressure being Prince Charming", "image" => "images/DSC00167.JPG", "date" => "18 May–27 July 2024", "details" => "There’s all those dragons to fight and kingdoms to save, not to mention being charming all the time. It's enough to make anyone a little worried..."],
@@ -31,8 +33,9 @@
         </div>
         <button class="carousel-button prev" onclick="prevSlide()">&#9664;</button>
         <button class="carousel-button next" onclick="nextSlide()">&#9654;</button>
+        <button class="view-more">View more</button>
     </div>
-    <button class="view-more">View more</button>
+   
 </div>
 <div class="container">
         <div class="filters">
@@ -98,5 +101,13 @@
                     <p>13 Sep 2024 - 15 Sep 2024</p>
                 </div>
             </div>
+            <div class="card" data-category="current">
+                <img src="https://teamworkarts.com/uploads_teamworkarts/festival/1719319199-jlf-seattle.png" alt="JLF USA Seattle">
+                <div class="card-text">
+                    <h3>JLF USA Seattle</h3>
+                    <p>Seattle</p>
+                    <p>13 Sep 2024 - 15 Sep 2024</p>
+                </div>
+            </div>
         </div>
-    </div>
+</div>

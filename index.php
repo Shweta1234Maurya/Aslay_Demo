@@ -17,6 +17,7 @@
     include('production.php');
     include('Trustees.php');
     include('support.php');
+    include('instagram.php');
     include('signup.php');
     ?>
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trustees Page</title>
-   
+    
 </head>
 <body>
     <h1>Trustees (photo and Name only)</h1>

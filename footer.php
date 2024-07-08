@@ -9,7 +9,7 @@
                     <li><a href="#">Trustees/Team</a></li>
                     <li><a href="#">Production/Shows</a></li>
                     <li><a href="#">Ishara Festival</a></li>
-                    <li><a href="#">Media</a></li>
+                    <li><a href="media.php">Media</a></li>
                 </ul>
             </div>
             <div class="footer-section contact">
