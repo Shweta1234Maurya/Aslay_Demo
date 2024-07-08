@@ -28,7 +28,7 @@
                 <input type="number" name="rooms" placeholder="Total Rooms Required" required>
                 <input type="number" name="pax" placeholder="Total Pax" required>
                 <textarea name="message" placeholder="Message" required></textarea>
-                <div class="full-width">
+                <div class="full-width"> 
                     <input type="checkbox" name="robot" required> I'm not a robot
                 </div>
                 <button type="submit">Send Message</button>
