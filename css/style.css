@@ -35,7 +35,7 @@ nav {
 }
 
 .logo .img1 {
-    height: 70px;
+    height: 50px;
     top: -10px;
 }
 
@@ -140,7 +140,7 @@ nav {
 
 /* banner section */
 
-.banner {
+/*.banner {
     position: relative;
     height: 90vh;
     overflow: hidden;
@@ -160,19 +160,19 @@ nav {
 }
 .banner-content {
     position: absolute;
-    bottom: -20%;
+    bottom: -12%;
     left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
-    line-height: 2em;
+   
 }
 
-
-.banner-content h1 {
+.banner-content h2 {
     font-size: 50px;
     color: white;
+   
 }
-
+*/
 
 
 /* About Section */
@@ -200,7 +200,7 @@ nav {
 
         .text h1 {
             font-size: 24px;
-            margin-bottom: 20px;
+            margin: 20px 0px;
         }
 
         .text p {
@@ -241,12 +241,8 @@ nav {
                 padding: 10px;
             }
 
-            .text h1 {
-                font-size: 20px;
-            }
-
             .text p {
-                font-size: 14px;
+                font-size: 10px;
             }
 
             .text .read-more {
@@ -261,11 +257,11 @@ nav {
 
         @media (max-width: 480px) {
             .text h1 {
-                font-size: 18px;
+                font-size: 10px;
             }
 
             .text p {
-                font-size: 12px;
+                font-size: 8px;
             }
 
             .text .read-more {
@@ -275,12 +271,7 @@ nav {
         }
  
 
-        /*  Footer Section  */
-        h1 {
-            color: #333;
-            margin: 30px;
-        }
-        
+        /*  Footer Section  */        
         .footer {
             background-color: #5a2c82;
             color: white;
@@ -342,7 +333,7 @@ nav {
         }
         
         /* Production Section 1 */
-        .carousel-container {
+        .carousel-container-pro{
             position: relative;
             max-width: 100%;
             margin: 50px auto;
@@ -352,16 +343,16 @@ nav {
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
-        .carousel-container h3 {
+        .carousel-container-pro.carousel-container h3 {
             color: #1263dd;
         }
 
-        .carousel {
+        .carousel-container-pro .carousel {
             display: flex;
             transition: transform 0.5s ease-in-out;
         }
 
-        .carousel-item {
+        .carousel-container-pro .carousel-item {
             flex: 1 0 100%;
             box-sizing: border-box;
             padding: 20px;
@@ -371,18 +362,18 @@ nav {
             text-align: center;
             font-size: small;
         }
-        .carousel-inner-item {
+        .carousel-container-pro .carousel-inner-item {
             padding: 20px;
             
         }
 
-        .carousel-item img {
+        .carousel-container-pro .carousel-item img {
             max-width: 400px;
             height: auto;
             border-radius: 8px;
         }
 
-        .carousel-button {
+        .carousel-container-pro .carousel-button {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -394,11 +385,11 @@ nav {
             z-index: 100;
         }
 
-        .carousel-button.prev {
+       .carousel-container-pro .carousel-button.prev {
             left: 10px;
         }
 
-        .carousel-button.next {
+       .carousel-container-pro .carousel-button.next {
             right: 10px;
         }
 
@@ -418,19 +409,19 @@ nav {
         }
 
         @media (min-width: 900px) {
-            .carousel-item {
+            .carousel-container-pro .carousel-item {
                 flex: 1 0 50%;
             }
         }
 
         @media (min-width: 1100x) {
-            .carousel-item {
+           .carousel-container-pro .carousel-item {
                 flex: 1 0 33.33%;
             }
         }
 
         @media (min-width: 1300px) {
-            .carousel-item {
+           .carousel-container-pro .carousel-item {
                 flex: 1 0 25%;
             }
         }
@@ -534,6 +525,10 @@ nav {
         }
 
         /* Trustee section */
+        .title{
+            justify-content: center;
+            text-align: center;
+        }
         .trustees-container {
             display: flex;
             flex-wrap: wrap;
@@ -596,10 +591,10 @@ nav {
                 max-width: 100%;
             }
         }
-
+        
         /* Supports section */
 
-        .supports {
+       /* .supports {
             text-align: center;
             margin-bottom: 20px;
         }
@@ -644,7 +639,7 @@ nav {
             }
             
             
-        }
+        }*/
         /*  signup section */
 
         .instagram-integration {
